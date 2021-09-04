@@ -1,7 +1,7 @@
 # damavis_challenge
 
 working of the solution is as follows for the examples provided:
-  >python .\data_engineer_challenge.py [4,3] [[2,2],[3,2],[3,1],[3,0],[2,0],[1,0],[0,0]] 3
+  $python .\data_engineer_challenge.py [4,3] [[2,2],[3,2],[3,1],[3,0],[2,0],[1,0],[0,0]] 3
   ['T', '0', '0']
   ['S', '0', '0']
   ['S', '0', 'H']
@@ -9,13 +9,13 @@ working of the solution is as follows for the examples provided:
   valid paths are:  ['DLU', 'DLD', 'DLL', 'LDD', 'LDR', 'LDL', 'LLD']
   number of paths is: 7
 
-  >python .\data_engineer_challenge.py [2,3] [[0,2],[0,1],[0,0],[1,0],[1,1],[1,2]] 10
+  $python .\data_engineer_challenge.py [2,3] [[0,2],[0,1],[0,0],[1,0],[1,1],[1,2]] 10
   ['S', 'S', 'H']
   ['S', 'S', 'T']
   valid paths are:  ['RDDLUURDDL']
   number of paths is: 1
   
-    > python .\data_engineer_challenge.py [10,10] [[5,5],[5,4],[4,4],[4,5]] 4
+  $python .\data_engineer_challenge.py [10,10] [[5,5],[5,4],[4,4],[4,5]] 4
   ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
   ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
   ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0']

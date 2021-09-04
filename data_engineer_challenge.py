@@ -78,7 +78,6 @@ def compute_valid_paths(snk,paths,depth):
 	"""
 	if depth == 0: return paths
 	valid_paths = []
-	print(paths)
 	#for each potential path, we try to see if each direction is valid
 	for path in paths:
 		for direction in directions:
